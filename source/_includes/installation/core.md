@@ -75,6 +75,7 @@ python3 -m venv .
 source bin/activate
 ```
 
+Note the dot after venv which will create a virtual environment project in the current folder, containing e.g. the bin folder used in the line below.
 Once you have activated the virtual environment (notice the prompt change to `(homeassistant) homeassistant@raspberrypi:/srv/homeassistant $`) you will need to run the following command to install a required Python package.
 
 ```bash
